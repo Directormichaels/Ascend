@@ -1,0 +1,807 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: white;
+  font-size: 18px;
+}
+header {
+  width: 100%;
+  background-image: url(./bg-hero-desktop.svg);
+  background-size: cover;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+}
+.logo_huddle {
+  width: 10%;
+}
+.button_one {
+  padding: 1px;
+  width: 90%;
+}
+.button_first {
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  border: 8px solid whitesmoke;
+  color: white;
+  background-color: white;
+  float: right;
+  opacity: 1;
+}
+.button_first:hover {
+  opacity: 0.6;
+}
+.button_one a {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 50px;
+  color: hsl(190, 100%, 9%);
+}
+.first {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+.first_build {
+  width: 45%;
+  margin: 100px 0px 75px 50px;
+}
+.first_mockup {
+  width: 55%;
+  height: 40px;
+}
+.first_mockup img {
+  float: right;
+  height: 500px;
+  width: 80%;
+  margin-right: 50px;
+}
+.first_build p {
+  font-size: 18px;
+  padding: 10px 0px;
+  width: 100%;
+  line-height: 30px;
+}
+.button_first_build {
+  margin: 30px 0px 10px;
+  padding: 25px;
+  width: 42%;
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  opacity: 1;
+}
+.button_first_build:hover {
+  opacity: 0.6;
+}
+.button_first_build a {
+  text-decoration: none;
+  color: hsl(193, 100%, 96%);
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 30px 0px;
+  padding: 10px 0px;
+}
+main {
+  background-color: white;
+  margin-top: 50px;
+}
+.second {
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.grow {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 30px 30px 30px 60px;
+  padding: 10px 50px;
+  border: 10px solid whitesmoke;
+  border-radius: 20px;
+}
+.grow_text {
+  width: 40%;
+  margin: 100px 0px 75px;
+  line-height: 30px;
+  padding: 10px 50px;
+  justify-content: center;
+}
+.grow_text p {
+  width: 100%;
+}
+.grow_image {
+  width: 50%;
+}
+.grow_image img {
+  height: 500px;
+  width: 70%;
+  float: right;
+}
+.flow {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 30px 30px 30px 60px;
+  padding: 10px 50px;
+  border: 10px solid whitesmoke;
+  border-radius: 20px;
+}
+.flow_text {
+  width: 30%;
+  margin: 100px 0px 75px 100px;
+  line-height: 30px;
+  padding: 10px 1px 10px 100px;
+  justify-content: center;
+}
+.flow_text p {
+  width: 100%;
+}
+.flow_image {
+  width: 50%;
+}
+.flow_image img {
+  height: 500px;
+  width: 80%;
+}
+.users {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 30px 30px 30px 60px;
+  padding: 10px 50px;
+  border: 10px solid whitesmoke;
+  border-radius: 20px;
+}
+.users_text {
+  width: 50%;
+  margin: 100px 0px 75px;
+  line-height: 30px;
+  padding: 10px 50px;
+  justify-content: center;
+}
+.users_image {
+  width: 50%;
+}
+.users_image img {
+  height: 500px;
+  width: 80%;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+.third {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+}
+.info_one {
+  width: 25%;
+  line-height: 40px;
+  text-align: left;
+  margin-top: 40px;
+}
+.foot_logo {
+  background-color: white;
+}
+.info_two {
+  width: 25%;
+  line-height: 40px;
+  margin: 90px 0px 10px 0px;
+}
+.info_two a {
+  color: white;
+  text-decoration: none;
+}
+.info_two a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.info_three {
+  width: 25%;
+  line-height: 40px;
+  margin: 90px 0px 10px 0px;
+}
+.info_three a {
+  color: white;
+  text-decoration: none;
+}
+.info_three a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.info_four {
+  width: 25%;
+  line-height: 40px;
+  margin: 90px 0px 10px 0px;
+}
+.info_four img {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: white;
+}
+.info_four img:hover {
+  background-color: hsl(322, 100%, 66%);
+}
+.copyright {
+  text-align: right;
+  color: white;
+}
+.ready {
+  width: 30%;
+  background-color: white;
+  text-align: center;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
+  position: relative;
+  top: 95px;
+  bottom: 0px;
+  right: 0px;
+  left: 750px;
+}
+.ready_button {
+  padding: 30px;
+  width: 70%;
+  margin: 30px 0px;
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  opacity: 1;
+}
+.ready_button:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 1440px) {
+  header {
+    width: 100%;
+    background-image: url(./bg-hero-desktop.svg);
+    background-size: cover;
+    padding: 10px;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  .logo_huddle {
+    width: 10%;
+  }
+  .button_one {
+    padding: 1px;
+    width: 90%;
+  }
+  .button_first {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    border: 8px solid whitesmoke;
+    color: white;
+    background-color: white;
+    float: right;
+    opacity: 1;
+  }
+  .button_first:hover {
+    opacity: 0.6;
+  }
+  .button_one a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 50px;
+    color: hsl(190, 100%, 9%);
+  }
+  .first {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+  }
+  .first_build {
+    width: 45%;
+    margin: 100px 0px 75px 50px;
+  }
+  .first_mockup {
+    width: 55%;
+    height: 40px;
+  }
+  .first_mockup img {
+    float: right;
+    height: 500px;
+    width: 80%;
+    margin-right: 50px;
+  }
+  .first_build p {
+    font-size: 18px;
+    padding: 10px 0px;
+    width: 100%;
+    line-height: 30px;
+  }
+  .button_first_build {
+    margin: 30px 0px 10px;
+    padding: 25px;
+    width: 42%;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    opacity: 1;
+  }
+  .button_first_build:hover {
+    opacity: 0.6;
+  }
+  .button_first_build a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 30px 0px;
+    padding: 10px 0px;
+  }
+  main {
+    background-color: white;
+    margin-top: 50px;
+  }
+  .second {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .grow {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 30px 30px 30px 60px;
+    padding: 10px 50px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  }
+  .grow_text {
+    width: 40%;
+    margin: 100px 0px 75px;
+    line-height: 30px;
+    padding: 10px 50px;
+    justify-content: center;
+  }
+  .grow_text p {
+    width: 100%;
+  }
+  .grow_image {
+    width: 50%;
+  }
+  .grow_image img {
+    height: 500px;
+    width: 70%;
+    float: right;
+  }
+  .flow {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 30px 30px 30px 60px;
+    padding: 10px 50px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  }
+  .flow_text {
+    width: 30%;
+    margin: 100px 0px 75px 100px;
+    line-height: 30px;
+    padding: 10px 1px 10px 100px;
+    justify-content: center;
+  }
+  .flow_text p {
+    width: 100%;
+  }
+  .flow_image {
+    width: 50%;
+  }
+  .flow_image img {
+    height: 500px;
+    width: 80%;
+  }
+  .users {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 30px 30px 30px 60px;
+    padding: 10px 50px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  }
+  .users_text {
+    width: 50%;
+    margin: 100px 0px 75px;
+    line-height: 30px;
+    padding: 10px 50px;
+    justify-content: center;
+  }
+  .users_image {
+    width: 50%;
+  }
+  .users_image img {
+    height: 500px;
+    width: 80%;
+  }
+  footer {
+    background-color: hsl(192, 100%, 9%);
+  }
+  .third {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+  }
+  .info_one {
+    width: 25%;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 40px;
+  }
+  .foot_logo {
+    background-color: white;
+  }
+  .info_two {
+    width: 25%;
+    line-height: 40px;
+    margin: 90px 0px 10px 0px;
+  }
+  .info_two a {
+    color: white;
+    text-decoration: none;
+  }
+  .info_two a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  .info_three {
+    width: 25%;
+    line-height: 40px;
+    margin: 90px 0px 10px 0px;
+  }
+  .info_three a {
+    color: white;
+    text-decoration: none;
+  }
+  .info_three a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  .info_four {
+    width: 25%;
+    line-height: 40px;
+    margin: 90px 0px 10px 0px;
+  }
+  .info_four img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: white;
+  }
+  .info_four img:hover {
+    background-color: hsl(322, 100%, 66%);
+  }
+  .copyright {
+    text-align: right;
+    color: white;
+  }
+  .ready {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 95px;
+    bottom: 0px;
+    right: 0px;
+    left: 500px;
+  }
+  .ready_button {
+    padding: 30px;
+    width: 70%;
+    margin: 30px 0px;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    opacity: 1;
+  }
+  .ready_button:hover {
+    opacity: 0.6;
+  }
+}
+@media screen and (max-width: 375px) {
+  header {
+    width: 100%;
+    background-image: url(./bg-hero-desktop.svg);
+    background-size: cover;
+    padding: 10px;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 1px;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  .logo_huddle {
+    width: 20%;
+  }
+  .logo_huddle img {
+    width: 120px;
+  }
+  .button_one {
+    padding: 0px;
+    width: 80%;
+  }
+  .button_first {
+    width: 200px;
+    padding: 3px;
+    border-radius: 70px;
+    border: 3px solid whitesmoke;
+    color: white;
+    background-color: white;
+    float: right;
+    opacity: 1;
+  }
+  .button_first:hover {
+    opacity: 0.6;
+  }
+  .button_one a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px;
+    color: hsl(190, 100%, 9%);
+  }
+  .first {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200%;
+    padding: 0px;
+  }
+  .first_build {
+    width: 47%;
+    text-align: center;
+    margin: 0px 0px 75px 10px;
+  }
+  .first_mockup {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 100px;
+    margin-top: 1vh;
+  }
+  .first_mockup img {
+    float: left;
+    height: 500px;
+    width: 100%;
+    margin: 0px 110px 0px 0px;
+    margin-top: 1vh;
+  }
+  .first_build p {
+    font-size: 18px;
+    padding: 10px 0px;
+    width: 100%;
+    line-height: 30px;
+  }
+  .button_first_build {
+    margin: 30px 0px 10px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    opacity: 1;
+  }
+  .button_first_build:hover {
+    opacity: 0.6;
+  }
+  .button_first_build a {
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 30px 0px;
+    padding: 10px 0px;
+  }
+  main {
+    background-color: white;
+    margin-top: 50px;
+  }
+  .second {
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .grow {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 500px 0px 0px 0px;
+    padding: 10px 10px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  }
+  .grow_text {
+    width: 100%;
+    margin: 100px 0px 75px 0px;
+    line-height: 30px;
+    padding: 0px;
+    text-align: center;
+  }
+  .grow_text p {
+    width: 100%;
+  }
+  .grow_image {
+    width: 100%;
+  }
+  .grow_image img {
+    height: 500px;
+    width: 100%;
+  }
+  .flow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    padding: 10px 10px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  }
+  .flow_text {
+    width: 100%;
+    margin: 100px 0px 75px 0px;
+    line-height: 30px;
+    padding: 0px;
+    text-align: center;
+  }
+  .flow_text p {
+    width: 100%;
+  }
+  .flow_image {
+    width: 100%;
+  }
+  .flow_image img {
+    height: 500px;
+    width: 100%;
+  }
+  .users {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    padding: 10px 10px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+  }
+  .users_text {
+    width: 100%;
+    margin: 100px 0px 75px 0px;
+    line-height: 30px;
+    padding: 0px;
+    text-align: center;
+  }
+  .users_image {
+    width: 100%;
+  }
+  .users_image img {
+    height: 500px;
+    width: 100%;
+  }
+  footer {
+    background-color: hsl(192, 100%, 9%);
+    width: 100%;
+  }
+  .third {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 1px 0px 20px;
+    margin: 0px;
+    color: white;
+  }
+  .info_one {
+    width: 100%;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 100px;
+    padding: 2px;
+  }
+  .foot_logo {
+    background-color: white;
+  }
+  .info_two {
+    width: 100%;
+    line-height: 40px;
+    margin: 90px 0px 10px 0px;
+  }
+  .info_two a {
+    color: white;
+    text-decoration: none;
+  }
+  .info_two a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  .info_three {
+    width: 100%;
+    line-height: 40px;
+    margin: 0px 0px 10px 0px;
+  }
+  .info_three a {
+    color: white;
+    text-decoration: none;
+  }
+  .info_three a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  .info_four {
+    width: 100%;
+    line-height: 50px;
+    margin: 70px 0px 10px 100px;
+  }
+  .info_four img {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: white;
+  }
+  .info_four img:hover {
+    background-color: hsl(322, 100%, 66%);
+  }
+  .copyright {
+    text-align: center;
+    color: white;
+  }
+  .ready {
+    width: 85%;
+    background-color: white;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 65px;
+    bottom: 0px;
+    right: 0px;
+    left: 30px;
+  }
+  .ready_button {
+    padding: 17px;
+    width: 80%;
+    margin: 10px 0px 30px;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    opacity: 1;
+  }
+  .ready_button:hover {
+    opacity: 0.6;
+  }
+}
